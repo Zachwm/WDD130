@@ -1,5 +1,5 @@
 .logo {
-    width: 30%;
+    width: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -12,4 +12,8 @@ nav {
 
 header {
     background-color: #306844;
+}
+
+.card-img {
+    width: 20%;
 }
