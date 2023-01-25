@@ -1,0 +1,39 @@
+body {
+    background-color: pink;
+    text-align: center;
+    color: white;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    margin: auto;
+    width: 9%;
+}
+
+#title:hover {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+}
+
+#nelson {
+    width: 15%;
+}
+
+#list {
+    color: black;
+    width: 25%;
+    text-align: left;
+    margin: auto;
+}
+
+#quote {
+    font-size: 30px;
+    width: 15%;
+    margin: auto;
+}
+
+#closer {
+    color: black;
+}
