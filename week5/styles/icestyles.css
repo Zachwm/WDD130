@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    max-width: 1280px;
+    background-color: gray;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+header img {
+    width: 100%;
+}
+footer {
+    width: 100%;
+    max-width: 1280px;
+}
+footer img {
+    width: 20%;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 50px;
+    background-color: rgb(70, 70, 70);
+}
