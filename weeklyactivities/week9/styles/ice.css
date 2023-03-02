@@ -1,0 +1,73 @@
+body {
+    max-width: 300px;
+    margin:auto;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 204px, 1fr, 1fr;
+    border-radius: 25px, 25px;
+}
+#picture {
+    grid-row: 1/2;
+    background-color: white;
+}
+section {
+    margin: 0;
+    background-color: white;
+    text-align: center;
+    grid-row: 2/3;
+}
+#age {
+    color: darkblue;
+}
+#text {
+    color: grey;
+    font-size: 18px;
+}
+footer {
+    display: grid;
+    grid-template-rows: 70px;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    background-color: rgb(121, 121, 121);
+    color: white;
+    text-align: center;
+    grid-row: 3/4;
+    font-size: large;
+    margin-top: 20px;
+}
+#five-m, #read {
+    display: grid;
+    grid-template-rows: 22px, 23px;
+    grid-column: 1/2;
+    background-color: darkblue;
+}
+#five-m {
+    grid-row: 1/2;
+}
+#read {
+    grid-row: 2/3;
+}
+#view, #views {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 1fr, 1fr;
+    background-color: darkblue;
+    margin: 0 2px;
+}
+#view {
+    grid-row: 1/2;
+}
+#views {
+    grid-row: 2/3;
+}
+#comment, #comments {
+    grid-column: 3/4;
+    display: grid;
+    grid-template-rows: 22px, 23px;
+    background-color: darkblue;
+}
+#comment {
+    grid-row: 1/2;
+}
+#comments {
+    grid-row: 2/3;
+}
