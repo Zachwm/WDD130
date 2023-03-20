@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed');
+
+body {
+    margin: 0 auto;
+    background-color: #498a60;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    color: #d9dfd9;
+}
+header {
+    background-color:#306844;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+header img {
+    padding-left: 100px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    padding-right: 50px;
+}
+nav a {
+    text-align: center;
+    color: #d9dfd9;
+    text-decoration: none;
+    padding: 50px;
+}
+nav a:hover {
+    background-color: #243f30;
+    color: #000000;
+}
+
+footer {
+    background-color: #306844;
+    color: black;
+    margin-top: 150px;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: #d9dfd9;
+    text-decoration: none;
+}
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
+footer {
+    margin-top: 25px;
+}
+
+
+.img-paragraph {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: #306844;
+    margin: 25px auto 0 auto;
+    border-radius: 5px;
+    max-width: 900px;
+}
+#intro-p {
+    padding-right: 25px;
+}
+#home-image {
+    grid-column: 2/3;
+    padding: 25px;
+}
+.intro {
+    grid-column: 3/4;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    text-align: left;
+}
+h1 {
+    grid-row: 1/2;
+    font-size: 1.25em;
+    padding-top: 8px;
+}
+#intro-p {
+    grid-row: 2/3;
+}
+
+
+.three-images {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 80px 1fr;
+    padding: 25px 100px;
+}
+.image-paragraph {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    max-width: 500px;
+    background-color: #306844;
+    padding:  25px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #193b22;
+    transition: transform .1s;
+    text-decoration: none!important;
+    color: #d9dfd9;
+}
+.image-paragraph:hover {
+    transform: scale(1.1);
+    opacity: .9;
+}

@@ -1,0 +1,22 @@
+section {
+    width: 50%;
+    border: 1px solid;
+  }
+.poem {
+    max-width: 50%;
+}
+.block2 {
+    margin-left: 25%;
+}
+.block3 {
+    margin-left: 50%;
+}
+.block4 {
+    margin-left: 25%;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
