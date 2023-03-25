@@ -109,3 +109,23 @@ h1 {
     transform: scale(1.1);
     opacity: .9;
 }
+
+
+#main-image {
+    margin: 25px auto 0 auto;
+    padding: 15px;
+    max-width: 720px;
+    background-color: #306844;
+    border-radius: 5px;
+}
+.title-paragraph {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #306844;
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+.about {
+    margin: 0;
+}
